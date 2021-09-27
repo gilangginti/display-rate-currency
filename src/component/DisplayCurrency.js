@@ -77,9 +77,9 @@ const DisplayCurrency = () => {
                 let weSell = datas.sell;
                 return <CoinCurrency key={index} 
                                      Name={datas.name} 
-                                     Buy={weBuy.toLocaleString()} 
-                                     Exchange={exchangeRate.toLocaleString()}
-                                     Sell={weSell.toLocaleString()}></CoinCurrency>;
+                                     Buy={weBuy} 
+                                     Exchange={exchangeRate}
+                                     Sell={weSell}></CoinCurrency>;
             })}
 
             </Table>
